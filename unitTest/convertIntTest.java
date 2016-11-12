@@ -10,8 +10,6 @@ public class convertIntTest {
 	private static MainPanel panel;
 	
 	
-	//Uses reflection to set up and test the private slowlife.MainPanel.convertToInt() method @throws Exception
-	
 	@BeforeClass
 	public static void NewMethods() throws Exception {
 			
