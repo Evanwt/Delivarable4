@@ -46,12 +46,12 @@ public class convertIntTest {
 		public void testZero() throws InvocationTargetException, IllegalAccessException {
 			
 			Object Object;
-			int Int;
+			int I;
 			
 				Object = convertToInt.invoke(panel, 0);
 				
-				Int = (Integer) Object;
-				assertEquals(Int, 0);
+				I = (Integer) Object;
+				assertEquals(I, 0);
 		}
 		
 		
@@ -62,11 +62,11 @@ public class convertIntTest {
 	 public void testRan() throws InvocationTargetException, IllegalAccessException {
 		
 	   	Object Object;
-		int Int;
+		int I;
 
 			Object = convertToInt.invoke(panel, 15);
-			Int = (Integer) Object;
-			assertEquals(Int, 15);
+			I = (Integer) Object;
+			assertEquals(I, 15);
 
 	}
 }
