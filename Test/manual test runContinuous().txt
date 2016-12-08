@@ -1,7 +1,7 @@
 Title : Test the runContinous() method. 
 
 Pre-Conditions : 
- Modified the code of runContinous(), try to make it more efficient.
+Modified the code of runContinous(), try to make it more efficient.
 
 Test Steps :
 1 : Compile the code and run the game
@@ -12,4 +12,4 @@ Expected Result :
 The time consuming reduced a lot comparing with running before modifying the code.
 
 Post-Conditions : 
- Return back to the original code of the runContinuous() method in MainPanel class.
+Return back to the original code of the runContinuous() method in MainPanel class.
